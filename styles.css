@@ -74,8 +74,20 @@ footer {
 }
 
 p {
-  color: #bbbbbb;
   font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+p:active {
+  color: #bbbbbb;
+}
+
+a:hover {
+  color: #dc5e21;
 }
 
 @media screen and (max-width: 988px) {
@@ -87,10 +99,10 @@ p {
 }
 
 /* @media screen and (max-width: 988px) {
-  .box {
-    margin-bottom: 10px;
-  }
-} */
+    .box {
+      margin-bottom: 10px;
+    }
+  } */
 
 @media screen and (max-width: 1432px) {
   .container {
@@ -101,7 +113,7 @@ p {
 }
 
 /*   @media screen and (min-width: 768px) {
-    .container {
-      max-width: 560px;
-    }
-  } */
+      .container {
+        max-width: 560px;
+      }
+    } */
